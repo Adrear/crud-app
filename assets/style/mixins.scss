@@ -1,0 +1,12 @@
+@mixin text-size-adjust($a) {
+  -webkit-text-size-adjust: $a;
+  -moz-text-size-adjust: $a;
+  -ms-text-size-adjust: $a;
+  text-size-adjust: $a;
+}
+
+@mixin box-sizing($a) {
+  -webkit-box-sizing: $a;
+  box-sizing: $a;
+}
+

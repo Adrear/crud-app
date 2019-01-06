@@ -1,0 +1,116 @@
+.project {
+  margin-bottom: 6px;
+  width: 100%;
+  -ms-flex-align: center;
+  position: relative;
+  &__logo {
+  border: none;
+  padding: 0;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  max-width: 65px;
+  width: 100%;
+  cursor: default;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  }
+  &__avatar .e-empty-avatar {
+    overflow: hidden;
+    border-radius: 50%;
+    white-space: nowrap;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #6495ed;
+    text-transform: uppercase;
+  }
+  &__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #dedede;
+    padding: 18px 20px 20px 25px;
+    cursor: pointer;
+    font-size: .9em;
+    height: 90px;
+    .b-name {
+      -webkit-box-flex: 2;
+      -ms-flex: 2;
+      flex: 2;
+      font-weight: 700;
+      overflow: hidden;
+    }
+    .b-status {
+      -webkit-box-flex: 2;
+      -ms-flex: 2;
+      flex: 2;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      text-align: center;
+      .e-status {
+        color: #777;
+        text-transform: capitalize;
+        font-weight: 700;
+        margin-bottom: 5px;
+        &.m-active {
+          color: green;
+        }
+      }
+    }
+    .b-stats {
+      -webkit-box-flex: 2;
+      -ms-flex: 2;
+      flex: 2;
+      white-space: nowrap;
+      margin-top: 2px;
+      margin-left: 32px;
+      min-width: 162px;
+      max-width: 162px;
+      .stats-row {
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+      }
+      .e-counts, .e-titles {
+        margin: 4px 0 0;
+      }
+      .e-counts {
+        text-align: right;
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+
+
