@@ -1,4 +1,4 @@
-# Quwi Test Task
+# Crud-app on Quwi api
 
 > nuxt/vue stack
 
